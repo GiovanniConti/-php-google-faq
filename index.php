@@ -59,9 +59,24 @@ $navList = [
 <body>
   <header>
     <div class="containerHeader">
-      <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Google Logo">
+      <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Google Logo" class="headerLogo">
       <span class="headerLogoText">Privacy e termini</span>
-      <nav></nav>
+      <nav>
+        <ul class="navList">
+          <?php
+          foreach($navList as $item){
+            
+            $itemClass = '';
+            if($item === end($navList)){
+              $itemClass = "navItem-selected";
+            } else {
+              $itemClass = '';
+            }
+            echo "<li class='navItem $itemClass'>$item</li>";
+          }
+          ?>
+        </ul>
+      </nav>
     </div>
   </header>
   <main>

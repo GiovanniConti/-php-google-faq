@@ -6,11 +6,40 @@
 }
 
 .containerHeader{
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+}
+
+.headerLogo{
+  height: 24px;
 }
 
 .headerLogoText{
-  
+  font-size: 22px;
+  line-height: 24px;
+  padding-left: 4px;
+  color: rgb(95, 99, 104);
+  vertical-align: top;
+}
+
+.navList{
+  display: flex;
+  list-style: none;
+  padding-top: 18px;
+}
+
+.navItem{
+  font-size: 15px;
+  margin-right: 42px;
+  padding-bottom: 6px;
+  color: rgb(95, 99, 104);
+  line-height: 21px;
+}
+
+.navItem-selected{
+  color: rgb(51, 103, 214);
+  border-bottom: 3px solid rgb(51, 103, 214);
 }
 
 .mainContianer{
