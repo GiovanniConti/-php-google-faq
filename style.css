@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.containerHeader{
+  padding: 20px;
+}
+
+.headerLogoText{
+  
+}
+
+.mainContianer{
+  max-width: 978px;
+  margin: auto;
+}
+
+.mainContianer h2{
+  padding-top: 64px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.mainContianer p{
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 24px;
+}
+
+p a{
+  text-decoration: none;
+}
